@@ -6,7 +6,7 @@ pseudocode:
 from greatest to smallest values. Add more key/value pairs representing special characters for toRoman Function
 - initialize result as empty string
 - run outer for loop iterating through keys in obj
-  - run inner while loop for when num is greater then obj[key]
+  - run inner while loop for when num is >= obj[key]
     - add key to result
     - subtract key-value from num
 - return result
